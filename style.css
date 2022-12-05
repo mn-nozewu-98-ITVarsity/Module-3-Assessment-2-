@@ -1,0 +1,230 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background\ new.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*=========home page========*/
+#home-logo-img{
+    width: 50px;
+    margin: auto;
+    display: block;
+    padding: 25px 10px 10px 25px;
+}
+
+#home-logo-text{
+    width: auto;
+    margin: auto;
+    display: block;
+    padding: 25px;
+}
+
+.home-menu-item{
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+    border: 5px solid greenyellow;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+/*=========header=========*/
+
+.header{
+    background-color: palegoldenrod;
+    width: 100%;
+    height: 90px;
+    top: 0px;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+    size: 10cm;
+}
+.header.img{
+    width: 150px;
+    padding-top: 14px;
+    padding-left: 50px;
+}
+
+
+/*=========starters page=========*/
+
+
+#starters{
+    padding-top: 50px;
+}
+.starters-list a{
+    text-decoration: none;
+
+}
+.starters-list i{
+
+    padding: 17px 0px 0px 17px;
+    color: yellow;
+    
+}
+
+.starters-list-item {
+    border: 5px solid green;
+    margin: 100px;
+    margin-bottom: 30px;
+}
+
+.starters-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+.starters-list-item i{
+    float: right;
+    color: black;
+    padding: 10px;
+}
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+    margin-top: -7px;
+    padding-left: 10px ;
+
+}
+
+.body-starters {
+    background-image:url('images/background\ new.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*==========order=========*/
+#order{
+    padding-top: 50px;
+    
+}
+
+.order-details img{
+    width: 100%;
+}
+.order-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    padding: 5px;
+}
+
+.order-details h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+ 
+.order-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+
+.order-details-info p{
+    font-size: 20px;
+    display: inline-block;
+}
+.order-details-extras label{
+    line-height: 15px;
+    margin-left: 10px;
+   display: inline-block;
+text-align: center;
+}
+
+
+
+
+.button{
+    display:block;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding-top: 8px 0;
+
+}
+
+
+@media only screen and (min-width:600px){
+    #starters{
+        width:80%;
+        margin: auto;
+    }
+    #order{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    #starters{
+        width:60%;
+        margin: auto;
+    }
+    #order{
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width:1500px){
+    #starters{
+        width:40%;
+        margin: auto;
+    }
+    #order{
+        width: 40%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image: url('images/background\ new.jpg');
+    }
+    .body-starters{
+        background-image: url('images/background\ new.jpg');
+    }
+}
